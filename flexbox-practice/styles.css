@@ -1,0 +1,43 @@
+#menu{
+    list-style: none;
+    background-color: orange;
+    color: white;
+    display: flex;
+}
+
+#menu li {
+    margin: 10px;
+}
+
+#featured{
+    background-color: lightgray;
+    padding: 5px;
+}
+
+#side-menu{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#inner-container{
+    display: flex;
+}
+
+#authors{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#authors img{
+    width: 250px;
+    height:300px;
+}
+
+.column-author{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
