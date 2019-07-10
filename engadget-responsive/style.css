@@ -1,0 +1,52 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Russo One', sans-serif;
+
+}
+
+#nav {
+    align-items: center;
+    background-color: #404040;
+    color: #F28A80;
+    display: flex;
+    list-style: none;
+}
+
+#nav li {
+    margin: 20px 40px 20px 40px;
+}
+
+#sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.section {
+    margin: 25px;
+    flex-direction: column;
+}
+
+.section img {
+    width: 400px;
+    height: 250px;
+    display: flex;
+}
+
+/* Most Mobile Devices (Portrait Mode) */
+
+@media only screen and (min-width: 300px) and (max-width: 480px) {
+ 
+#nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.section img {
+    width: 200px;
+    height: 100px;
+}
+
+}
