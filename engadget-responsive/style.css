@@ -44,6 +44,10 @@
     flex-direction: column;
 }
 
+.section{
+    margin: 15px 5px 15px 5px;
+}
+
 .section img {
     width: 200px;
     height: 100px;
