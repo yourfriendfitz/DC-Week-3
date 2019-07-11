@@ -7,3 +7,22 @@ h1 {
     text-align: center;
     margin: 25px;
 }
+
+.nav-icon {
+    width: 100px;
+    height: auto;
+}
+
+.jumbotron {
+    background-color: black;
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    padding: 30px;
+}
+
+.nav-link :hover{
+   background-color: black;
+}
